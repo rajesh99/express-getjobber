@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:getjobber": "node index.js"
+    "start:getjobber": "node index.js",
+    "auth": "node getjobber-auth.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "open": "^8.4.2"
   }
 }
